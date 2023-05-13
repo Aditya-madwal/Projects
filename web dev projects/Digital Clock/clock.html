@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Digital Clock</title>
+</head>
+
+<body style="padding: 10px;background-color:coral;">
+    <h1 style="text-align: center;font-family: 'Pacifico', cursive;font-weight: 900;margin-bottom: 30px;">Digital World
+        Clock : </h1>
+
+    <div class="card" style="margin: 0px 300px;border: 0;background-color: aqua;">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+            <h2 class="card-title">Current Time : </h2>
+            <h1 id="time" style="text-align: center;font-weight: 900;"></h1>
+
+            <h2 class="card-title">Current Date : </h2>
+            <h1 id="date" style="text-align: center;font-weight: 900;margin-bottom: 20px;"></h1>
+            <hr>
+            <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            
+                <button  class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample" id="btn" style="margin-bottom: 20px;">
+                    Button with data-target
+                </button>
+
+            <div class="collapse" id="cities" style="background-color:aquamarine;">
+                <div class="card card-body" style="background-color:aquamarine;">
+                  <ul style="text-decoration: none;list-style-type: none;font-family:cursive;font-weight: 900;">
+                      <li class="city">New York</li>
+                      <li class="city">London</li>
+                      <li class="city">Paris</li>
+                      <li class="city">Tokyo</li>
+                      <li class="city">Delhi</li>
+                      <li class="city">Berlin</li>
+                      <li class="city">Uganda</li>
+                      <li class="city">Beijing</li>
+                  </ul>
+                </div>
+              </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+<script src="clock.js"></script>
+
+</html>
